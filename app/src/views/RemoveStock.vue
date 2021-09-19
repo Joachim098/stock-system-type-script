@@ -1,16 +1,16 @@
 <template>
-  <Dashboard />
+  <Remove />
 </template>
 
 <script lang="ts">
   import Vue from 'vue'
-  import Dashboard from '../components/Dashboard.vue'
+  import Remove from '../components/Remove.vue'
 
   export default Vue.extend({
-    name: 'Home',
+    name: 'RemoveStock',
 
     components: {
-     Dashboard,
+      Remove,
     },
   })
 </script>
